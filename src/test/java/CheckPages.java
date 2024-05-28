@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class CheckPages extends TestBase {
 
-    static Stream<Arguments> сheckingTheAuthorizationPage() {
+    static Stream<Arguments> сheckingTheAuthorizationPageTest() {
         return Stream.of(
                 Arguments.of("standard_user", "secret_sauce"),
                 Arguments.of("performance_glitch_user", "secret_sauce")
